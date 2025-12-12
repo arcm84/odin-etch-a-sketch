@@ -1,9 +1,26 @@
 /* styles.css */
 
 body * {
-  outline: 2px solid red;
 }
 
 .flex-container {
   display: flex;
+}
+
+.pixel-default {
+  width: 20px;
+  height: 20px;
+  background: grey;
+  color: white;
+  text-align: center;
+  line-height: 200px;
+}
+
+.pixel-highlight {
+  width: 20px;
+  height: 20px;
+  background: lightblue;
+  color: white;
+  text-align: center;
+  line-height: 200px;
 }
